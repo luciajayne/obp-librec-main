@@ -10,7 +10,7 @@ nav_order: 1
 
 This is a Recsys project
 
-**Resume**
+**OBP**
 ![OBP](/content/obp.png)
 
 [Download OBP Summary](content/OBP.pdf)
