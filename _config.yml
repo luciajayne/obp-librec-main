@@ -21,7 +21,7 @@
 title: Lucia Jayne
 email: lucia.jayne@colorado.edu
 description:
-baseurl: "/obp-librec-auto" # the subpath of your site, e.g. /blog
+baseurl: "/obp-librec-main" # the subpath of your site, e.g. /blog
 url: "https://luciajayne.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
