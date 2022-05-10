@@ -1,6 +1,6 @@
 ---
 layout: default
-title: OFAiR Metrics
+title: OFAiR Results
 nav_order: 9
 ---
 
