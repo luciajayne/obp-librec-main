@@ -18,7 +18,15 @@ nav_order: 3
 [OBP Trainer Notebook](content/OBP_Trainer.ipynb)
 Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List. Similar results can be achieved by using a classification model. 
 
-**OBP**
-[OBP Github](https://github.com/st-tech/zr-obp)
+```Python
+ 'n_actions': 2830, # number of uniques itemids
+    'context': array([0,1,2,3,4,5,...]), #userID
+    'action': array([8, 6, 5, 4, 7, 0, 1, 3, 5, 4, 6, 1, 4, 1, 7,...]), #one action (itemID) for each position or 50*len(context)
+    'position': array([0, 1, 2…49,50, 0, 1, 2…49,50,0, 1, 2…49,50,...]), #up to 50 positions for each context or 50*len(context)
+ 'reward': array([1, 1, 1, ..., 1, 1, 1]), #set all rewards to one
+```
+
+**OBP** <br />
+[OBP Github](https://github.com/st-tech/zr-obp) <br />
 OBP Tutorial by the authors
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
