@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CU Cloud
-nav_order: 8
+nav_order: 11
 ---
 
 **CU Cloud Tutorial**
