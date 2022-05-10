@@ -10,5 +10,6 @@ nav_order: 12
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Important Papers** <br />
+[SCRUF-D Paper](content/papers/2021_FAccT_SCRUF.pdf.pdf) <br />
 [OFAiR Paper](content/papers/OFAIR_Paper.pdf) <br />
 [Lottery Paper](content/papers/Lottery_Paper.pdf) <br />
