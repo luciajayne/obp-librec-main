@@ -27,7 +27,7 @@ The focus is on offline experimentation <br />
   1. predictions  
   2. action_probabilty distributions(where len_size = 1) 
 
-**Simulation** 
+**Simulation** <br />
 Based on online policy mainly 
 
 **Off-Policy Estimators (OPE)** 
