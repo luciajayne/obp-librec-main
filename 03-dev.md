@@ -72,8 +72,8 @@ The following demo OBP projects:
 *Built-in demos on Librec-auto* <br />
 Demo 01 to Demo 05: come built-in with Librec-auto
 
-**OBP Recommend Wrapper**
-[obp_recommend_wrapper.py](content/obp_recommend_wrapper.py)
+**OBP Recommend Wrapper** <br />
+[obp_recommend_wrapper.py](content/obp_recommend_wrapper.py) <br />
 Takes the user ID and gives a list on Librec auto.
 1. Passes the user into the OBP wrapper.
 2. Output is a list. 
