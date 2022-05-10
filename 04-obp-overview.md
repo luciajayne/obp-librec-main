@@ -5,8 +5,11 @@ nav_order: 4
 ---
 
 # OBP Overview
-The focus is on offline experimentation <br />
-[OBP Tutorial](https://sites.google.com/cornell.edu/recsys2021tutorial) 
+[OBP Tutorial:](https://sites.google.com/cornell.edu/recsys2021tutorial) The focus is on offline experimentation with four different components 
+1. The data set component: the pipeline data set.
+2. The learner or policy component: the policy itself.
+3. The simulator component: runs the policy.
+4. The evaluation component: analyzes if the policy compares well with another type of policy or the standard policy. 
 
 ### OBP PROCESS
 ![OBP_Process](https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png)
