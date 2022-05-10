@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testing Configurations
+title: Configurations
 nav_order: 10
 ---
 # Configurations
