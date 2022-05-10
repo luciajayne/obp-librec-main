@@ -16,5 +16,6 @@ Pass-through policy.
 - [SCRUF-D vs. OBP](05-scruf-d)
 - [SCRUF-D Implementation](06-implementation)
 - [Data Structure](07-data-structure.md)
-- [CU Cloud](08-cloud)
-- [Resources List](09-resources)
+- [Synthetic Bandit Dataset](08-slate.md)
+- [CU Cloud](11-cloud)
+- [Resources List](12-resources)
