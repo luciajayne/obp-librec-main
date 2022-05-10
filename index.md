@@ -5,7 +5,7 @@ nav_order: 1
 ---
 # OBP, Librec-Auto and SCRUF-D
 
-Pass-through policy.
+Initial phase of integration: Evaluation of OBP to determine how it would integrate with SCRUF-D. Currently, the component of OBP being used is the IPWLearner (a Python class); in order to create the **pass-through policy**.
 
 ### Table of Contents
 - [Home](index)
