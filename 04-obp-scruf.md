@@ -12,23 +12,23 @@ The focus is on offline experimentation
 ![OBP Process](https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png) 
 
 **Data Management** 
-i. Datasets 
-ii. Bandit Feedback 
+- Datasets 
+- Bandit Feedback 
   1. Dictionary storing logged data 
   2. Action_context: Context vectors characterizing actions (i.e., a vector representation or an embedding of each action). 
   3. OBP Extension (Slate) 
     a. Comparison of bandit feedback 
 **Off-Policy Learner** <br />
 [OBP Off-Policy Learner Notebook] (https://colab.research.google.com/github/st-tech/zr-obp/blob/master/examples/quickstart/opl.ipynb) 
-i. Class wrapper for ML model 
+- Class wrapper for ML model 
   1. Example IPWLearner  
   2. Off-policy learner based on Inverse Probability Weighting and Supervised Classification. 
-ii. Outputs  
+- Outputs  
   1. predictions  
   2. action_probabilty distributions(where len_size = 1) 
-c. Simulation 
-  i. Based on online policy mainly 
-d. Off-Policy Estimators (OPE) 
-  i. Policy values (metrics) based on reward system 
-  ii. Return values within [0,1] 
-  iii. Estimates the performance of a policy based on log history 
+**Simulation** 
+Based on online policy mainly 
+**Off-Policy Estimators (OPE)** 
+- Policy values (metrics) based on reward system 
+- Return values within [0,1] 
+- Estimates the performance of a policy based on log history 
