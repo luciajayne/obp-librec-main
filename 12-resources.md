@@ -13,3 +13,9 @@ nav_order: 12
 [SCRUF-D Paper](content/papers/2021_FAccT_SCRUF.pdf.pdf) <br />
 [OFAiR Paper](content/papers/OFAIR_Paper.pdf) <br />
 [Lottery Paper](content/papers/Lottery_Paper.pdf) <br />
+
+**Additional Projects**
+[SCRUF-D Paper Github Project](https://github.com/that-recsys-lab/scruf_d)
+[SCRUF Github Project 2020](https://github.com/that-recsys-lab/scruf)
+[Librec-Auto Github Project](https://github.com/that-recsys-lab/librec-auto)
+[Librec-auto Demo 2021 Github Project](https://github.com/that-recsys-lab/librec-auto-demo2021)
