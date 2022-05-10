@@ -44,8 +44,8 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
   </rerank>
 ```
 **Results** <br />
-Found in folder DemoOFAiR/Exp00000/result
-The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb) *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
+Found in folder DemoOFAiR/Exp00000/result <br />
+The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb)<br /> *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
 
 **OBP Exporter** <br />
 Input: demoX-out-1.txt <br />
