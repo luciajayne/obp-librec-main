@@ -26,7 +26,7 @@ The focus is on offline experimentation <br />
 - Outputs  
   1. predictions  
   2. action_probabilty distributions(where len_size = 1) 
-![obp_action_dist](content/action_dist.png =250x)
+<img src="content/action_dist.png" alt="obp_action_dist" width="350"/>
 
 **Simulation** <br />
 Based on online policy mainly 
