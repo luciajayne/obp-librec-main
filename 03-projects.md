@@ -47,10 +47,13 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 Found in folder DemoOFAiR/Exp00000/result
 The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb) *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
 
+**OBP Exporter** <br />
+Input: demoX-out-1.txt <br />
+Output: IPW_OBP_demoX.pickle <br />
+[OBP Exporter Notebook](https://github.com/luciajayne/obp-librec-main/blob/main/content/OBP_Exporter.ipynb)
+
 **DEMO OBP Projects** <br />
-- Changes to the algorithm section of librec-auto. 
-- Replaced with OBP. 
-- They require a pickle file (use a notebook to create a pickle file).
+The changes were made to the algorithm section of librec-auto. It was replaced with OBP. They require a pickle file (use the OBP Exporter notebook to create a pickle file).
 The following demo OBP projects:
 1. DemoOBP_STANDARD
 2. DemoOBP_RANDOM
