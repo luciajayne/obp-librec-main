@@ -16,6 +16,6 @@ nav_order: 12
 
 **Additional Projects**
 - [SCRUF-D Paper Github Project](https://github.com/that-recsys-lab/scruf_d)
-- [SCRUF Github Project 2020](https://github.com/that-recsys-lab/scruf)
+- [SCRUF 2020 Github Project](https://github.com/that-recsys-lab/scruf)
 - [Librec-Auto Github Project](https://github.com/that-recsys-lab/librec-auto)
 - [Librec-auto Demo 2021 Github Project](https://github.com/that-recsys-lab/librec-auto-demo2021)
