@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Slate
+title: Synthetic Bandit Dataset
 nav_order: 8
 ---
 
