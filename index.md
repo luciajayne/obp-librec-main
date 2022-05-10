@@ -11,4 +11,4 @@ nav_order: 1
 Pass-through policy.
 
 - [Home](index)
-- [Dataset Processing](03-projects)
+- [Detailed Implementation](03-projects)
