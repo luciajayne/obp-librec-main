@@ -20,5 +20,6 @@ Initial phase of integration: Evaluation of OBP to determine how it would integr
 - [CU Cloud](11-cloud)
 - [Resources List](12-resources)
 - [Additional Notes](13-notes)
+- [FAQ](14-faq)
 
 <img src='https://www.colorado.edu/profiles/express/themes/ucb/images/cu-boulder-logo-text-black.svg' width='250' alt='CU-Banner'>
