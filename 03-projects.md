@@ -46,6 +46,8 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
     </script>
   </rerank>
 ```
+*To Debug: run the OBP_Ofair_Reranker wrapper in PyCharm*
+
 **Results** <br />
 Found in folder DemoOFAiR/Exp00000/result <br />
 The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb)<br /> *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
