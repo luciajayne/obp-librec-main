@@ -8,10 +8,8 @@ The focus is on offline experimentation <br />
 [OBP Tutorial](https://sites.google.com/cornell.edu/recsys2021tutorial) 
 
 **OBP PROCESS**
-<img src="https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png" alt="obp_process" width="450"/>
+![OBP_Process](https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png)
 *From [OBP Project](https://github.com/st-tech/zr-obp)*
-
-<img src="content/obp_summary.png" alt="obp_summary" width="350"/>
 
 **Data Management** 
 - Datasets 
@@ -37,3 +35,9 @@ Based on online policy mainly
 - Policy values (metrics) based on reward system 
 - Return values within [0,1] 
 - Estimates the performance of a policy based on log history 
+
+**Additional Notes**
+
+<img src="content/obp_summary.png" alt="obp_summary" width="350"/>
+
+*OBP Summary*
