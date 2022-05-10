@@ -47,7 +47,7 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 ```
 
 *OBP: replace ofair_rerank.py with obp_rerank.py* <br />
-```XML
+```
 <!-- RERANK SECTION -->
   <rerank>
     <script lang="python3" src="system">
