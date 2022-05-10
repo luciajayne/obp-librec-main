@@ -15,3 +15,4 @@ Pass-through policy.
 - [OBP Overview](04-obp-scruf)
 - [SCRUF-D vs. OBP](05-scruf-d)
 - [SCRUF-D Implementation](06-implementation)
+- [Resources List](09-resources)
