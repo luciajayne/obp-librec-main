@@ -4,6 +4,8 @@ title: Development
 nav_order: 3
 ---
 
+# Development: Overview
+
 *A Pass-through Policy* <br />
 One pickle file from the [OBP_Trainer.ipynb](content/OBP_Trainer.ipynb) (right now is overfitted one user_ID to list, could be more nuance based on context to user_ID). 
 
@@ -16,6 +18,15 @@ One pickle file from the [OBP_Trainer.ipynb](content/OBP_Trainer.ipynb) (right n
 
 [Install Librec-auto](https://librec-auto.readthedocs.io/en/latest/index.html) <br />
 [Download Pycharm Community Version](https://www.jetbrains.com/pycharm/download/#section=windows)
+
+**Librec-auto Demos**
+Demo 01 to Demo 05: come built-in with Librec-auto
+
+**Results** <br />
+Found in folder DemoOFAiR/Exp00000/result <br />
+The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb)<br /> *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
+
+# Development: Reranking
 
 **OBP Trainer** 
 
@@ -48,9 +59,14 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 ```
 *To Debug: run the OBP_Ofair_Reranker wrapper in PyCharm*
 
-**Results** <br />
-Found in folder DemoOFAiR/Exp00000/result <br />
-The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb)<br /> *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
+**DEMO OBP Projects** <br />
+The changes were made to the algorithm section of librec-auto. It was replaced with OBP. They require a pickle file (use the OBP Exporter notebook to create a pickle file).
+The following demo projects:
+1. DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
+2. DemoOFAiR: changes to the re-ranking section two options: obp_rerank.py(added 04-2022) or ofair_rerank.py (already built-in librec-auto)
+3. DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto). <br />
+
+# Development: Algorithm
 
 **OBP Exporter** <br />
 Input: demoX-out-1.txt <br />
@@ -65,12 +81,6 @@ The following demo OBP projects:
 3. DemoOBP_FAIR
 ![FAIR STANDARD RANDOM](content/fair_std_rand.png)
 *Results calculated using OBP for pass-through policy (no evaluation, or dataset). Librec Auto for evaluation.*
-4. DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
-5. DemoOFAiR: changes to the re-ranking section two options: obp_rerank.py(added 04-2022) or ofair_rerank.py (already built-in librec-auto)
-6. DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto). <br />
-
-*Built-in demos on Librec-auto* <br />
-Demo 01 to Demo 05: come built-in with Librec-auto
 
 **OBP Recommend Wrapper** <br />
 [obp_recommend_wrapper.py](content/obp_recommend_wrapper.py) <br />
