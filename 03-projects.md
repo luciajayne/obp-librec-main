@@ -64,8 +64,3 @@ The following demo OBP projects:
 <br />
 *Built-in demos on Librec-auto* <br />
 Demo 01 to Demo 05: come built-in with Librec-auto
-
-**OBP** <br />
-[OBP Github](https://github.com/st-tech/zr-obp) <br />
-OBP Tutorial by the authors
-<iframe width="187" height="105" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
