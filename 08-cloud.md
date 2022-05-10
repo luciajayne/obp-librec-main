@@ -9,5 +9,3 @@ nav_order: 8
 
 <iframe src="https://luciajayne.github.io/obp-librec-main/content/tutorials/OpenStack_VNC.pdf" width="100% height=100%">
 </iframe>
-
-<embed src="https://luciajayne.github.io/obp-librec-main/content/tutorials/OpenStack_VNC.pdf" type="application/pdf" />
