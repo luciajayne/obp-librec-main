@@ -9,26 +9,26 @@ nav_order: 3
 *A Pass-through Policy* <br />
 One pickle file from the [OBP_Trainer.ipynb](content/OBP_Trainer.ipynb) (right now is overfitted one user_ID to list, could be more nuance based on context to user_ID). 
 
-**Data Cleaning**
+### Data Cleaning
 
 [OFAiR Data Cleaning Notebook](https://github.com/luciajayne/obp-librec-main/blob/main/content/OFAiR_Paper_Replication.ipynb) This notebook cleans the data similar to Sonboli’s cleaning data process (derived from Sonboli’s OFAiR project). <br />
 [Sonboli's OFAiR Github](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb)
 
-**Running Librec-auto**
+### Running Librec-auto
 
 [Install Librec-auto](https://librec-auto.readthedocs.io/en/latest/index.html) <br />
 [Download Pycharm Community Version](https://www.jetbrains.com/pycharm/download/#section=windows)
 
-**Librec-auto Demos**
+### Librec-auto Demos
 Demo 01 to Demo 05: come built-in with Librec-auto
 
-**Results** <br />
+### Results
 Found in folder DemoOFAiR/Exp00000/result <br />
 The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb)<br /> *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
 
 # Development: Reranking
 
-**OBP Trainer** 
+### OBP Trainer 
 
 [OBP Trainer Notebook](content/OBP_Trainer.ipynb)
 Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List (Similar results can be achieved by using a classification model). <br />
@@ -59,7 +59,7 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 ```
 *To Debug: run the OBP_Ofair_Reranker wrapper in PyCharm*
 
-**DEMO OBP Projects** <br />
+### DEMO OBP Projects
 The changes were made to the algorithm section of librec-auto. It was replaced with OBP. They require a pickle file (use the OBP Exporter notebook to create a pickle file).
 The following demo projects:
 1. DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
@@ -68,12 +68,12 @@ The following demo projects:
 
 # Development: Algorithm
 
-**OBP Exporter** <br />
+### OBP Exporter
 Input: demoX-out-1.txt <br />
 Output: IPW_OBP_demoX.pickle <br />
 [OBP Exporter Notebook](https://github.com/luciajayne/obp-librec-main/blob/main/content/OBP_Exporter.ipynb)
 
-**DEMO OBP Projects** <br />
+### DEMO OBP Projects
 The changes were made to the algorithm section of librec-auto. It was replaced with OBP. They require a pickle file (use the OBP Exporter notebook to create a pickle file).
 The following demo OBP projects:
 1. DemoOBP_STANDARD
@@ -82,7 +82,7 @@ The following demo OBP projects:
 ![FAIR STANDARD RANDOM](content/fair_std_rand.png)
 *Results calculated using OBP for pass-through policy (no evaluation, or dataset). Librec Auto for evaluation.*
 
-**OBP Recommend Wrapper** <br />
+### OBP Recommend Wrapper
 [obp_recommend_wrapper.py](content/obp_recommend_wrapper.py) <br />
 Takes the user ID and gives a list on Librec auto.
 1. Passes the user into the OBP wrapper.
