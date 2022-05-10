@@ -47,4 +47,4 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 **OBP** <br />
 [OBP Github](https://github.com/st-tech/zr-obp) <br />
 OBP Tutorial by the authors
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="187" height="105" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
