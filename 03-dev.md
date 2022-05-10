@@ -36,7 +36,7 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 
 *How OBP stores data for the specific MovieDataSet*
 
-<code>
+```
  'n_actions': 2830, # number of uniques itemids
     'context': array([0,1,2,3,4,5,...]), #userID
      #one action (itemID) for each position or 50*len(context)
@@ -44,7 +44,7 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
      #up to 50 positions for each context or 50*len(context)
     'position': array([0, 1, 2…49,50, 0, 1, 2…49,50,0, 1, 2…49,50,...]), 
  'reward': array([1, 1, 1, ..., 1, 1, 1]), #set all rewards to one
-</code>
+```
 
 *OBP: replace ofair_rerank.py with obp_rerank.py* <br />
 ```XML
