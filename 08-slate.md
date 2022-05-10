@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Slate
 nav_order: 8
 ---
 
