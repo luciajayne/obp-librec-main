@@ -64,7 +64,7 @@ The following demo OBP projects:
 ![FAIR STANDARD RANDOM](content/fair_std_rand.png)
 4. DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
 5. DemoOFAiR: changes to the re-ranking section two options: obp_rerank.py(added 04-2022) or ofair_rerank.py (already built-in librec-auto)
-6. DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto).
-<br />
+6. DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto). <br />
+
 *Built-in demos on Librec-auto* <br />
 Demo 01 to Demo 05: come built-in with Librec-auto
