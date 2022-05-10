@@ -16,4 +16,4 @@ This is a Recsys project
 [Download OBP Summary](content/OBP.pdf)
 
 - [Home](index)
-- [Projects](03-projects)
+- [OBP and Librec-auto](03-projects)
