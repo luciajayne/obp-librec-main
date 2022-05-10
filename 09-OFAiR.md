@@ -3,9 +3,10 @@ layout: default
 title: OFAiR Metrics
 nav_order: 9
 ---
-
-**OFAiR Paper** <br />
+[Librec-auto ofair_rerank.py](https://github.com/that-recsys-lab/librec-auto/blob/master/librec_auto/core/cmd/rerank/ofair_rerank.py)
 [OFAiR_Paper](content/papers/OFAIR_Paper.pdf)
+
+**OFAiR Paper Results** <br />
 ![OFAiR Results](content/ofair/ofair_ndcg.png)
 
 **Revised Logic Cleaning @50 with obp_rerank.py** <br />
