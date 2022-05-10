@@ -20,7 +20,7 @@ One pickle file from the [OBP_Trainer.ipynb](content/OBP_Trainer.ipynb) (right n
 **OBP Trainer** 
 
 [OBP Trainer Notebook](content/OBP_Trainer.ipynb)
-Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List. Similar results can be achieved by using a classification model. <br />
+Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List (Similar results can be achieved by using a classification model). <br />
 *1 user_ID → 1 recommendation list (is the nature of the design). This is somewhat impractical because the size of the resulting pickle file (i.e it is 44GB for the movie dataset). In other words, hard to scale.* <br />
 
 *How OBP stores data for the specific MovieDataSet*
