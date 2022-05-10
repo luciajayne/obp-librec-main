@@ -4,6 +4,12 @@ title: SCRUF-D Implementation
 nav_order: 6
 ---
 
-![Graph_1](content/SCRUF-D Implementation.PNG)
-![Graph_2](content/librec-auto-OBP-SCRUF-D.png)
-![Graph_3](content/SCRUF Architecture.PNG)
+**SCRUF-D Architecture**
+![Graph_Architecture](content/SCRUF Architecture.PNG)
+
+**SCRUF-D Implementation Phases**
+![Graph_Phases](content/SCRUF-D Implementation.PNG)
+
+**SCRUF-D and OBP Development**
+![Graph_Dev](content/librec-auto-OBP-SCRUF-D.png)
+
