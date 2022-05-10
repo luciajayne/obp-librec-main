@@ -1,10 +1,9 @@
 ---
 layout: default
-title: OBP vs. SCRUF-D
+title: OBP Overview
 nav_order: 4
 ---
 
-**OBP OVERVIEW** <br />
 The focus is on offline experimentation <br />
 [OBP Tutorial](https://sites.google.com/cornell.edu/recsys2021tutorial) 
 
