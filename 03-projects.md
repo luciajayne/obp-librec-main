@@ -14,10 +14,11 @@ nav_order: 3
 [Install Librec-auto](https://librec-auto.readthedocs.io/en/latest/index.html) <br />
 [Download Pycharm Community Version](https://www.jetbrains.com/pycharm/download/#section=windows)
 
-**OBP Trainer**
+**OBP Trainer** 
+
 [OBP Trainer Notebook](content/OBP_Trainer.ipynb)
-Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List. Similar results can be achieved by using a classification model. 
-*1 user_ID → 1 recommendation list (is the nature of the design). This is somewhat impractical because the size of the resulting pickle file (i.e it is 44GB for the movie dataset). In other words, hard to scale.*
+Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List. Similar results can be achieved by using a classification model. <br />
+*1 user_ID → 1 recommendation list (is the nature of the design). This is somewhat impractical because the size of the resulting pickle file (i.e it is 44GB for the movie dataset). In other words, hard to scale.* <br />
 
 *How OBP stores data for the specific MovieDataSet*
 ```Python
@@ -28,6 +29,19 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
      #up to 50 positions for each context or 50*len(context)
     'position': array([0, 1, 2…49,50, 0, 1, 2…49,50,0, 1, 2…49,50,...]), 
  'reward': array([1, 1, 1, ..., 1, 1, 1]), #set all rewards to one
+```
+*OBP: replace ofair_rerank.py with obp_rerank.py* <br />
+```XML
+	<!-- RERANK SECTION -->
+	 <rerank>
+		 <script lang="python3" src="system">
+			 <script-name>obp_rerank.py</script-name> 
+			 <param name="max_len">50</param>
+			 <param name="lambda"><value>0.9</value></param>
+			 <param name="binary">False</param>
+			 <param ref="fea:new"/>
+		 </script>
+	</rerank>
 ```
 
 **OBP** <br />
