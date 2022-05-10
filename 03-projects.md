@@ -4,6 +4,9 @@ title: Development
 nav_order: 3
 ---
 
+*A passthrough policy* <br />
+One pickle file from the [OBP_Trainer.ipynb](content/OBP_Trainer.ipynb) (right now is overfitted one user_ID to list, could be more nuance based on context to user_ID). 
+
 **Data Cleaning**
 
 [OFAiR Data Cleaning Notebook](https://github.com/luciajayne/obp-librec-main/blob/main/content/OFAiR_Paper_Replication.ipynb) This notebook cleans the data similar to Sonboli’s cleaning data process (derived from Sonboli’s OFAiR project). <br />
