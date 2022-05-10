@@ -18,6 +18,7 @@ nav_order: 3
 [OBP Trainer Notebook](content/OBP_Trainer.ipynb)
 Developed to provide a proof of concept. The learner uses the pass-through policy to take in as context user_ID in order to predict a Recommendation List. Similar results can be achieved by using a classification model. 
 
-**OBP Tutorial 2021**
+**OBP**
+[OBP Github](https://github.com/st-tech/zr-obp)
 OBP Tutorial by the authors
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
