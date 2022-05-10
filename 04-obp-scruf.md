@@ -9,6 +9,7 @@ The focus is on offline experimentation <br />
 
 **OBP PROCESS**
 ![OBP Process](https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png) 
+*From [OBP Project](https://github.com/st-tech/zr-obp)*
 
 **Data Management** 
 - Datasets 
@@ -25,7 +26,7 @@ The focus is on offline experimentation <br />
 - Outputs  
   1. predictions  
   2. action_probabilty distributions(where len_size = 1) 
-
+![obp_action_dist](content/action_dist.png)
 **Simulation** <br />
 Based on online policy mainly 
 
