@@ -48,16 +48,16 @@ Found in folder DemoOFAiR/Exp00000/result
 The results for the movie dataset differ from Sonboli’s OFAiR paper because the author used different metrics code [Sonboli OFAiR Repository](https://github.com/nasimsonboli/OFAiR/blob/main/source%20code/ML26_data_prep.ipynb) *Librec-auto wasn’t used to calculate Sonboli's metrics*. 
 
 **DEMO OBP Projects** <br />
--Changes to the algorithm section of librec-auto. 
--Replaced with OBP. 
--They require a pickle file (use a notebook to create a pickle file).
+- Changes to the algorithm section of librec-auto. 
+- Replaced with OBP. 
+- They require a pickle file (use a notebook to create a pickle file).
 The following demo OBP projects:
-1.DemoOBP_STANDARD
-2.DemoOBP_RANDOM
-3.DemoOBP_FAIR
-4.DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
-5.DemoOFAiR: changes to the re-ranking section two options: obp_rerank.py(added 04-2022) or ofair_rerank.py (already built-in librec-auto)
-6.DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto).
+1. DemoOBP_STANDARD
+2. DemoOBP_RANDOM
+3. DemoOBP_FAIR
+4. DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
+5. DemoOFAiR: changes to the re-ranking section two options: obp_rerank.py(added 04-2022) or ofair_rerank.py (already built-in librec-auto)
+6. DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto).
 *Built-in demos on Librec-auto* <br />
 Demo 01 to Demo 05: come built-in with Librec-auto
 
