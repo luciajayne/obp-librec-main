@@ -6,14 +6,9 @@ nav_order: 1
 
 <img src='https://www.colorado.edu/profiles/express/themes/ucb/images/cu-boulder-logo-text-black.svg' width='250' alt='CU-Banner'>
 
-**OBP/Librec-Auto**
+**OBP and Librec-Auto**
 
-This is a Recsys project
-
-**OBP**
-![OBP](/content/obp.png)
-
-[Download OBP Summary](content/OBP.pdf)
+Pass-through policy.
 
 - [Home](index)
-- [OBP and Librec-auto](03-projects)
+- [Dataset Processing](03-projects)
