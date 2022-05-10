@@ -7,5 +7,4 @@ nav_order: 8
 **CU Cloud Tutorial**
 <a href="https://luciajayne.github.io/obp-librec-main/content/tutorials/OpenStack_VNC.pdf" target="_blank">PDF.</a>
 
-<iframe src="https://luciajayne.github.io/obp-librec-main/content/tutorials/OpenStack_VNC.pdf" height=100%">
-</iframe>
+<embed src="https://luciajayne.github.io/obp-librec-main/content/tutorials/OpenStack_VNC.pdf" type="application/pdf" width="200" height="900"/>
