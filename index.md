@@ -13,4 +13,4 @@ Pass-through policy.
 - [Home](index)
 - [Detailed Implementation](03-projects)
 - [OBP Overview](04-obp-scruf)
-- [SCRUF-D Integration](05-scruf)
+- [SCRUF-D Integration](05-scruf-d)
