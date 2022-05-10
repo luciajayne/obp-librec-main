@@ -71,3 +71,9 @@ The following demo OBP projects:
 
 *Built-in demos on Librec-auto* <br />
 Demo 01 to Demo 05: come built-in with Librec-auto
+
+**[OBP_Recommend_Wrapper.py](content/obp_recommend_wrapper.py)**
+Takes the user ID and gives a list on Librec auto.
+1. Passes the user into the OBP wrapper.
+2. Output is a list. 
+*Librec-auto during evaluation performs the metric*
