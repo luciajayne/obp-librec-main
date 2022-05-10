@@ -6,7 +6,8 @@ nav_order: 10
 # Configurations
 ## Librec-auto Configuration File
 LibRec Auto takes a configuration file, then splits the data, then recommendations, then evaluations.
-![librec-auto config](content/configurations/librec-auto_conf.png)
+<img src="content/configurations/librec-auto_conf.png" width="370" height="170" />
+
 1. Data section: Uploads the data.
 ![data_conf](content/configurations/librec-auto/data_conf.png)
 2. Feature section: Enumerates the features and pin the features to the dataset.
