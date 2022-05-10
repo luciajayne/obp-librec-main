@@ -3,9 +3,6 @@ layout: default
 title: Home
 nav_order: 1
 ---
-
-<img src='https://www.colorado.edu/profiles/express/themes/ucb/images/cu-boulder-logo-text-black.svg' width='250' alt='CU-Banner'>
-
 # OBP and Librec-Auto
 
 Pass-through policy.
@@ -21,3 +18,5 @@ Pass-through policy.
 - [Testing Configurations](10-test-config)
 - [CU Cloud](11-cloud)
 - [Resources List](12-resources)
+
+<img src='https://www.colorado.edu/profiles/express/themes/ucb/images/cu-boulder-logo-text-black.svg' width='250' alt='CU-Banner'>
