@@ -4,7 +4,7 @@ title: Development
 nav_order: 3
 ---
 
-*A passthrough policy* <br />
+*A Pass-through Policy* <br />
 One pickle file from the [OBP_Trainer.ipynb](content/OBP_Trainer.ipynb) (right now is overfitted one user_ID to list, could be more nuance based on context to user_ID). 
 
 **Data Cleaning**
