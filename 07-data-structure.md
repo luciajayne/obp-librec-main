@@ -3,7 +3,7 @@ layout: default
 title: Data Structure
 nav_order: 7
 ---
-# Data Structure
+# Main Data Structure
 These are the data structure highlighted in the [SCRUF-D FAcct Paper](content/papers/2021_FAccT_SCRUF.pdf), along with possible ways to implementing each structure in OBP.
 
 ### User Recommendation List (l)
