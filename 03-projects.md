@@ -62,7 +62,7 @@ The following demo OBP projects:
 2. DemoOBP_RANDOM
 3. DemoOBP_FAIR
 ![FAIR STANDARD RANDOM](content/fair_std_rand.png)
-*Results calculated using OBP for passthrough policy (no evaluation, or dataset). Librec Auto for evaluation.*
+*Results calculated using OBP for pass-through policy (no evaluation, or dataset). Librec Auto for evaluation.*
 4. DataOFAiR: was bult from the movie data. It contains the notebook to prepare the data. The movie data source is Kaggle. 
 5. DemoOFAiR: changes to the re-ranking section two options: obp_rerank.py(added 04-2022) or ofair_rerank.py (already built-in librec-auto)
 6. DemoMMR: extension of OFAiR (same as OFAiR reranking but it uses MMR: already built-in librec-auto). <br />
