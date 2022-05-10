@@ -13,22 +13,22 @@ nav_order: 5
 - OBP is based on Machine Learning driven by data and SCRUFF-D is more model based
 - Metrics (OPB is rewards based)
 
-**Implementation**
+**Implementation** <br />
 *Partial*
 1. OBP as recommender system
 2. Build Algorithm and Choice Mechanism, feedback separately
 
 *Full*
 1. Modifications (Similar to Slate)
-  a. Evaluators/ Metrics
-  b. Bandit Feedback
-  c. Determine data sources/storage
+  - Evaluators/ Metrics
+  - Bandit Feedback
+  - Determine data sources/storage
 2. Rewards Problem
-  a. Set all rewards equal to 1
-  b. Repurpose the rewards label: Could signal protected items/lists
+  - Set all rewards equal to 1
+  - Repurpose the rewards label: Could signal protected items/lists
 3. Fairness Agents
-  a. Each Fariness Agent serves as an OBP policy
-  b. Allocation Mechanism manages policy usage based on BanditFeedback: Nested actions
+  - Each Fariness Agent serves as an OBP policy
+  - Allocation Mechanism manages policy usage based on BanditFeedback: Nested actions
 4. List Structure
-  a. OBP uses three dimension (context,actions,posion): SCRUFF-D uses (userID, ItemID, pposition)
-  b. Context,ListID could be used in OBP, but we would need to pull list from data source
+  - OBP uses three dimension (context,actions,posion): SCRUFF-D uses (userID, ItemID, pposition)
+  - Context,ListID could be used in OBP, but we would need to pull list from data source
