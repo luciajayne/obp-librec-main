@@ -20,5 +20,4 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 
 **OBP Tutorial 2021**
 OBP Tutorial by the authors
-
-<iframe width="560" height="315" src="https://youtu.be/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HMo9fQMVB4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
