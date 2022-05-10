@@ -6,7 +6,7 @@ nav_order: 9
 # OFAiR Results
 
 ## [OFAiR_Paper](content/papers/OFAIR_Paper.pdf) Results
-![OFAiR Results](content/ofair/ofair_ndcg.png)
+<img src="content/ofair/ofair_ndcg.png" width="400" height="250" />
 
 ## Librec-auto OFAiR Results
 While trying to reproduce above outcomes
