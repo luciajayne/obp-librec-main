@@ -32,16 +32,16 @@ Developed to provide a proof of concept. The learner uses the pass-through polic
 ```
 *OBP: replace ofair_rerank.py with obp_rerank.py* <br />
 ```XML
-	<!-- RERANK SECTION -->
-	 <rerank>
-		 <script lang="python3" src="system">
-			 <script-name>obp_rerank.py</script-name> 
-			 <param name="max_len">50</param>
-			 <param name="lambda"><value>0.9</value></param>
-			 <param name="binary">False</param>
-			 <param ref="fea:new"/>
-		 </script>
-	</rerank>
+<!-- RERANK SECTION -->
+  <rerank>
+    <script lang="python3" src="system">
+	<script-name>obp_rerank.py</script-name> 
+	<param name="max_len">50</param>
+	<param name="lambda"><value>0.9</value></param>
+	<param name="binary">False</param>
+	<param ref="fea:new"/>
+    </script>
+  </rerank>
 ```
 
 **OBP** <br />
