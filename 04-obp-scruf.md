@@ -16,8 +16,8 @@ The focus is on offline experimentation <br />
 - Bandit Feedback 
   1. Dictionary storing logged data 
   2. Action_context: Context vectors characterizing actions (i.e., a vector representation or an embedding of each action). 
-  3. OBP Extension (Slate) 
-    a. Comparison of bandit feedback 
+  3. OBP Extension (Slate): Comparison of bandit feedback 
+
 **Off-Policy Learner** <br />
 [OBP Off-Policy Learner Notebook](https://colab.research.google.com/github/st-tech/zr-obp/blob/master/examples/quickstart/opl.ipynb) 
 - Class wrapper for ML model 
@@ -26,8 +26,10 @@ The focus is on offline experimentation <br />
 - Outputs  
   1. predictions  
   2. action_probabilty distributions(where len_size = 1) 
+
 **Simulation** 
 Based on online policy mainly 
+
 **Off-Policy Estimators (OPE)** 
 - Policy values (metrics) based on reward system 
 - Return values within [0,1] 
