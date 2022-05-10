@@ -11,6 +11,7 @@ nav_order: 1
 Pass-through policy.
 
 - [Home](index)
-- [Detailed Implementation](03-projects)
+- [Development](03-projects)
 - [OBP Overview](04-obp-scruf)
-- [SCRUF-D Integration](05-scruf-d)
+- [SCRUF-D vs. OBP](05-scruf-d)
+- [SCRUF-D Implementation](06-implementation)
