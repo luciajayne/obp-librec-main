@@ -7,11 +7,11 @@ nav_order: 4
 The focus is on offline experimentation <br />
 [OBP Tutorial](https://sites.google.com/cornell.edu/recsys2021tutorial) 
 
-![OBP Overview](content/action_dist.png)
-
 **OBP PROCESS**
-![OBP Process](https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png) 
+<img src="https://raw.githubusercontent.com/st-tech/zr-obp/master/images/overview.png" alt="obp_process" width="450"/>
 *From [OBP Project](https://github.com/st-tech/zr-obp)*
+
+<img src="content/obp_summary.png" alt="obp_summary" width="350"/>
 
 **Data Management** 
 - Datasets 
