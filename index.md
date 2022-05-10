@@ -12,7 +12,7 @@ Pass-through policy.
 
 - [Home](index)
 - [Development](03-projects)
-- [OBP Overview](04-obp-scruf)
+- [OBP Overview](04-obp-overview)
 - [SCRUF-D vs. OBP](05-scruf-d)
 - [SCRUF-D Implementation](06-implementation)
 - [Data Structure](07-data-structure)
