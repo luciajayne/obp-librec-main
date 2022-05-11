@@ -10,7 +10,7 @@ The main purpose is to look at the log data history and create a behavior of tha
 
 ### What is the OBP algorithm section based on?
 Algorithms in OBP (unsupervised learning) is machine learning where the behavior is based on the data. OBP ideally gets the data and figures out what the output should be.
-![obp-alg](content/notes/obp-alg.png)
+<img src="content/notes/obp-alg.png" width="250" height="400" />
 
 ### How important are rewards in OBP?
 OBP is more concerned about the reward because it makes recommendations of that. 
