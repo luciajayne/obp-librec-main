@@ -18,8 +18,9 @@ LibRec Auto takes a configuration file, then splits the data, then recommendatio
 ![alg_config](content/configurations/librec-auto/alg_conf.png)
 5. Rerank section: Necessary for SCRUF-D project.
 ![rerank_config](content/configurations/librec-auto/rr_conf.png)
-
-*Other sections: metrics (measurement), post-processing (for excel, or browser).*
+6. Metrics section: Allows to add the necessary metrics (ndcg, psp, etc.)
+![metrics_config](content/configurations/librec-auto/metrics_conf.png)
+*Other sections: post-processing (for excel, or browser).*
 
 ## PyCharm Testing Configuration Examples
 
