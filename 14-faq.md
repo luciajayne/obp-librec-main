@@ -15,10 +15,10 @@ Algorithms in OBP (unsupervised learning) is machine learning where the behavior
 No, because it only takes the log data and kind of creates a new behavior. OBP is more concerned about the reward because it makes recommendations of that. 
 
 ### What is IPW?
-Inverse propensity weighting (IPW) means that if there is data missing, it reduces the weight of those missing items. But, it increases the data of the users that are there for future allocations. 
+Inverse Probability weighting (IPW) means that if there is data missing, it reduces the weight of those missing items. But, it increases the data of the users that are there for future allocations. 
 
 ### What is the item_ID in IPWLearner?
-The learner expands the item_ID to a vector field. Instead of having the value of the item ID, it uses ones.
+The learner expands the item_ID to a vector field (vectorizes the item). It takes value of item_ID and converts it into ones and zeros. That vector then is used as the action in OBP.
  
 ### What is OBP input and output for this project?
 The input should be user_ID and the output should be a list.
