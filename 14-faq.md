@@ -11,8 +11,8 @@ The main purpose is to look at the log data history and create a behavior of tha
 ### What is the OBP algorithm section based on?
 Algorithms in OBP (unsupervised learning) is machine learning where the behavior is based on the data. OBP ideally gets the data and figures out what the output should be.
 
-### Is the OBP algorithm section the most important part of OBP?
-No, because it only takes the log data and kind of creates a new behavior. OBP is more concerned about the reward because it makes recommendations of that. 
+### How important are rewards in OBP?
+OBP is more concerned about the reward because it makes recommendations of that. 
 
 ### What is IPW?
 Inverse Probability weighting (IPW) means that if there is data missing, it reduces the weight of those missing items. But, it increases the data of the users that are there for future allocations. 
